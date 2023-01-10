@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
 :root {
-    --main-color: #d4d1cf;
-    --sub-color: #0f0f0f;
+    --main-color: rgb(9, 155, 9);
+    --sub-color: #ffffff;
     --white: rgb(0, 0, 0);
     --border: .1rem solid rgba(220, 198, 156, .3);
 }
@@ -59,18 +59,18 @@ section {
     padding: 1rem 3rem;
     border: var(--border);
     font-size: 1.8rem;
-    color: var(--sub-color);
+    color: white;
     text-align: center;
     text-transform: capitalize;
     transition: .2s linear;
     margin-top: 1rem;
-    background-color: var(--main-color);
+    background-color: black;
 }
 
 .btn:hover {
     border-radius: 5rem;
-    background-color: var(--sub-color);
-    color: var(--main-color);
+    background-color: rgb(13, 201, 85);
+    color: #0f0f0f;
 }
 
 .header {
@@ -396,8 +396,8 @@ nav ul {
     margin-bottom: 1rem;
     border-radius: .5rem;
     padding: 1.2rem;
-    color: var(--main-color);
-    background-color: var(--sub-color);
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 8, 8);
     font-size: 2.2rem;
     text-transform: capitalize;
 }
@@ -407,13 +407,13 @@ nav ul {
     margin: 1rem 0;
     border-bottom: var(--border);
     font-size: 1.8rem;
-    color: var(--sub-color);
-    background: var(--main-color);
+    color: white;
+    background: rgb(117, 111, 111);
     width: 100%;
 }
 
 .contact .row form .box::placeholder {
-    color: rgba(220, 198, 156, .6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .contact .row form textarea {
@@ -424,14 +424,14 @@ nav ul {
 .contact .row .faq .title {
     padding-bottom: .5rem;
     font-size: 2.5rem;
-    color: var(--sub-color);
+    color: black;
     text-transform: capitalize;
     text-align: center;
 }
 
 .contact .row .faq .box {
     border-radius: .5rem;
-    border: var(--border);
+    border: black);
     margin-top: 2rem;
 }
 
@@ -448,7 +448,7 @@ nav ul {
     padding: 1.5rem 2rem;
     line-height: 2;
     font-size: 1.6rem;
-    color: var(--sub-color);
+    color: rgb(0, 0, 0);
     display: none;
 }
 
@@ -487,6 +487,7 @@ nav ul {
 }
 
 .footer .box-container {
+    background-color: rgb(7, 7, 7);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
@@ -498,12 +499,13 @@ nav ul {
 .footer .box-container .box a {
     display: block;
     font-size: 1.8rem;
-    color: var(--sub-color);
-    padding: 1rem 0;
+    color: rgb(213, 226, 214);
+    padding: 1rem 10px;
 }
 
 .footer .box-container .box a:hover {
-    color: var(--white);
+    color: rgb(253, 255, 253);
+    background-color: #11b82c;
 }
 
 .footer .box-container .box:first-child i {
@@ -526,35 +528,11 @@ nav ul {
     border-radius: .5rem;
     padding: 2rem;
     text-align: center;
-    color: var(--main-color);
-    background-color: var(--sub-color);
+    color: red;
+    background-color: rgb(15, 15, 15);
     font-size: 2rem;
     /* margin-bottom: 8rem; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media queries  */
