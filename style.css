@@ -128,10 +128,6 @@ section {
     border-radius: 20px;
 }
 
-
-background-color: rgb(0, 0, 0);
-}
-
 nav ul {
     list-style: none;
     display: flex;
@@ -141,7 +137,7 @@ nav ul {
     margin: 0;
 }
 
-/.home .box img {
+.home .box img {
     border-radius: .5rem;
     height: 60vh;
     width: 100%;
@@ -431,7 +427,7 @@ nav ul {
 
 .contact .row .faq .box {
     border-radius: .5rem;
-    border: black);
+    border: black;
     margin-top: 2rem;
 }
 
